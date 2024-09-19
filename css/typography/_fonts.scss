@@ -1,0 +1,57 @@
+/* critical:start */
+// @font-face {
+//   font-family: "Brown-Ftv";
+//   src:
+//     url("../fonts/FranceTVBrownTT-Light.woff2") format("woff2"),
+//     url("../fonts/FranceTVBrownTT-Light.woff") format("woff");
+//   font-weight: 300;
+//   font-style: normal;
+//   font-display: swap;
+// }
+@font-face {
+  /**/
+  font-family: "Brown-Ftv";
+  src:
+    url("../fonts/FranceTVBrownTT-Regular.woff2") format("woff2"),
+    url("../fonts/FranceTVBrownTT-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  /**/
+  font-family: "Brown-Ftv";
+  src:
+    url("../fonts/FranceTVBrownTT-Bold.woff2") format("woff2"),
+    url("../fonts/FranceTVBrownTT-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  /**/
+  font-family: "ftv-icon";
+  src:
+    url("../fonts/ftv-icon.woff2") format("woff2"),
+    url("../fonts/ftv-icon.woff") format("woff"),
+    url("../fonts/ftv-icon.svg#ftv-icon") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  /**/
+  font-family: "FranceTVBrown-Regular";
+  src: url("../fonts/francetvbrown-regular.ttf");
+}
+
+@font-face {
+  /**/
+  font-family: "Paris2024";
+  src: url("../fonts/Paris2024.ttf");
+}
+/* critical:end */
+
+#paris-2024 .BFT{
+  font-family: "Brown-Ftv" !important;
+}

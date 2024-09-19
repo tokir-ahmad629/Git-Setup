@@ -1,0 +1,36 @@
+/* ------------------------------------------------------------ *\
+   Importing component styles
+\* ------------------------------------------------------------ */
+@import "components/letter-spacing";
+@import "components/line-height";
+@import "components/font";
+@import "components/image-sizes";
+@import "components/borders";
+@import "components/anchor-tags";
+@import "components/positions";
+@import "components/overflows";
+
+/* ------------------------------------------------------------ *\
+   Importing external styles
+\* ------------------------------------------------------------ */
+@import "bootstrap/bootstrap";
+@import "typography/fonts";
+
+/* ------------------------------------------------------------ *\
+   Importing variable files
+\* ------------------------------------------------------------ */
+@import "variables/breakpoints";
+@import "variables/colors";
+@import "variables/fonts";
+@import "variables/mixins";
+@import "variables/sizes";
+
+/* ------------------------------------------------------------ *\
+   Main Style
+\* ------------------------------------------------------------ */
+@import "main/main-paris-2024";
+@import "main/header";
+@import "main/common-sections";
+@import "main/main-les-programmes-a-ne-pas-rater";
+@import "main/main-on-sengage";
+@import "main/footer";

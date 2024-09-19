@@ -1,0 +1,197 @@
+header#paris-2024{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 111;
+    .top-nav{
+        box-shadow: 0px 4px 48.79999923706055px 0px #0000000F;
+        .buttons{
+            &::before{
+                content: "";
+                padding: 10px 0 10px 7px;
+                border-left: 1px solid #D6DCE0;
+            }
+            .top-btn-1{
+                a{
+                    font-family: "Brown-Ftv" !important;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #fff;
+                    background-color: #333C42;
+                    text-decoration: none;
+                    padding: 11px 30px 13px !important;
+                    border: 1px solid #333C42;
+                    @media only screen and (max-width: 1200px) {
+                        padding: 11px 10px 13px !important;
+                    }
+                    &:hover{
+                        background-color: #192127 !important;
+                    }
+                }
+            }
+            .top-btn-2{
+                a{
+                    font-family: "Brown-Ftv" !important;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #333C42;
+                    background-color: transparent;
+                    border: 1px solid #333C42;
+                    text-decoration: none;
+                    padding: 11px 30px 13px !important;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    @media only screen and (max-width: 1200px) {
+                        padding: 11px 10px 13px !important;
+                    }
+                    &:hover{
+                        background-color: #333C42 !important;
+                        color: #fff;
+                        svg{
+                            path{
+                                stroke: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .search-bar{
+            overflow-x: hidden;
+            .search-icon{
+                cursor: pointer;
+                z-index: 11;
+                &:hover{
+                    path{
+                        stroke: #192127;
+                    }
+                }
+            }
+            .search-bar-inner{
+                transition: .7s;
+                border: 1px solid #3C68ED;
+                background-color: #F0F4F7;
+                padding: 9px 20px;
+                border-radius: 40px;
+                // display: none;
+                opacity: 0;
+                z-index: -1;
+                position: relative;
+                transform: translateX(100%);
+                &.show-form{
+                    opacity: 1;
+                    z-index: 1;
+                    transform: translateX(0%);
+                }
+                .search-form{
+                    .form-search{
+                        border: 0;
+                        background-color: transparent;
+                        width: 100%;
+                        outline: none;
+                        box-shadow: none;
+                        font-family: "Brown-Ftv" !important;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #4F5C65;
+                    }
+                    .close-search-form{
+                        transition: .5s;
+                        cursor: pointer;
+                        transform: translateX(-1000%);
+                        opacity: 0;
+                        z-index: -1;
+                        &.show-button{
+                            transform: translateX(0%);
+                            opacity: 1;
+                            z-index: 1;
+                        }
+                    }
+                }
+            }
+        }
+        .menu-toggle-icon{
+            cursor: pointer;
+            @media only screen and (min-width: 991.99px) {
+                display: none !important;
+            }
+            .menu-close{
+                display: none;
+            }
+        }
+        .nav-list{
+            @media only screen and (min-width: 991.99px) {
+                display: block !important;
+            }
+            @media only screen and (max-width: 991px) {
+                background-color: #fff;
+                position: absolute;
+                left: 0;
+                right: 0;
+                z-index: 111;
+                display: none;
+            }
+            li{
+                @media only screen and (max-width: 991px) {
+                    display: block;
+                    padding: 10px;
+                    margin: 0;
+                }
+                .link-styles{
+                    font-family: "Brown-Ftv" !important;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #333C42;
+                    text-decoration: none;
+                    margin: 0 10px;
+                    &:hover, &.active{
+                        color: #192127;
+                    }
+                }
+            }
+        }
+    }
+    .bottom-nav{
+        background-color: #333C42;
+        ul{
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: scroll;
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: scroll;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+            &::-webkit-scrollbar {
+                display: none;
+            }
+            li{
+                &:first-child{
+                    margin-left: auto;
+                }
+                &:last-child{
+                    margin-right: auto;
+                }
+                .link-styles{
+                    width: max-content;
+                    display: block;
+                    font-family: "Brown-Ftv" !important;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #D6DCE0;
+                    text-decoration: none;
+                    margin: 0 10px;
+                    &:hover, &.active{
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+}   

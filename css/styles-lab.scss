@@ -1,0 +1,33 @@
+/* ------------------------------------------------------------ *\
+   Importing component styles
+\* ------------------------------------------------------------ */
+@import "components/letter-spacing";
+@import "components/line-height";
+@import "components/font";
+@import "components/image-sizes";
+@import "components/borders";
+@import "components/anchor-tags";
+@import "components/positions";
+@import "components/overflows";
+
+/* ------------------------------------------------------------ *\
+   Importing external styles
+\* ------------------------------------------------------------ */
+@import "bootstrap/bootstrap";
+@import "typography/fonts";
+
+/* ------------------------------------------------------------ *\
+   Importing variable files
+\* ------------------------------------------------------------ */
+@import "variables/breakpoints";
+@import "variables/colors";
+@import "variables/fonts";
+@import "variables/mixins";
+@import "variables/sizes";
+
+/* ------------------------------------------------------------ *\
+   Main Style
+\* ------------------------------------------------------------ */
+@import "main/header";
+@import "main/footer";
+@import "lab/pages/home";

@@ -1,0 +1,40 @@
+$media-dimensions: (
+  xs: (
+    max: 599px,
+  ),
+  sm: (
+    min: 600px,
+    max: 1023px,
+  ),
+  md: (
+    min: 1024px,
+    max: 1199px,
+  ),
+  lg: (
+    min: 1200px,
+  ),
+);
+
+$break-sm-min: 600px;
+$break-md-min: 1024px;
+$break-lg-min: 1200px;
+$break-xs-max: ($break-sm-min + 1);
+$break-sm-max: ($break-md-min + 1);
+$break-md-max: ($break-lg-min + 1);
+
+$media-min-dimensions: (
+  sm: $break-sm-min,
+  md: $break-md-min,
+  lg: $break-lg-min,
+);
+
+$media-max-dimensions: (
+  xs: $break-xs-max,
+  sm: $break-sm-max,
+  md: $break-md-max,
+);
+
+$break-lg: 1280px;
+$break-md: 1024px;
+$break-sm: 992px;
+$break-xs: 600px;

@@ -1,0 +1,30 @@
+@use "sass:math";
+
+@for $i from 1 through 9 {
+  .fw-#{$i} {
+    font-weight: $i * 100 !important;
+  }
+}
+
+@for $i from 1 through 99 {
+  .fz-#{$i} {
+    font-size: math.div($i, 16) * 1.5rem !important;
+
+    // Responsive adjustments
+    @media (max-width: 768px) {
+      @if $i >60 {
+        font-size: 4.5rem !important;
+      }
+    }
+
+    @media (max-width: 575px) {
+      @if $i >40 {
+        font-size: 3rem !important;
+      }
+
+      @if $i >16 {
+        font-size: 1.5rem !important;
+      }
+    }
+  }
+}

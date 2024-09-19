@@ -1,0 +1,9 @@
+.bn {
+  border: none;
+}
+
+@for $i from 0 through 50 {
+  .br-#{$i} {
+    border-radius: $i * 1px !important;
+  }
+}

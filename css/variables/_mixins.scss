@@ -1,0 +1,35 @@
+@mixin media-breakpoint-up($breakpoint) {
+  @media only screen and (min-width: map-get(map-get($media-dimensions, $breakpoint), "min")) {
+    @content;
+  }
+}
+
+@mixin media-breakpoint-down($breakpoint) {
+  @media only screen and (max-width: map-get(map-get($media-dimensions, $breakpoint), "max")) {
+    @content;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .d-md-none {
+    display: block !important;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .d-lg-none {
+    display: block !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (min-height: 600px) and (max-width: 1024px) and (max-height: 600px) {
+  .d-xl-block {
+    display: block !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .d-xl-block {
+    display: block !important;
+  }
+}

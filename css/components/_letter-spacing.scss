@@ -1,0 +1,5 @@
+@for $i from 1 through 90 {
+  .ls-#{$i} {
+    letter-spacing: $i * 1px !important;
+  }
+}

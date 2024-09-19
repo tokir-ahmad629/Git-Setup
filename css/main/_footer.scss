@@ -1,0 +1,198 @@
+footer#paris-2024{
+    background-color: #F0F4F7;
+    .CTA{
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        background-color: #192127;
+        .cta-block{
+            .desc-style{
+                font-size: 20px;
+                color: #fff;
+            }
+            .button-style{
+                @media only screen and (max-width: 992px) {
+                    width: 100%;
+                }
+                a{
+                    display: block;
+                    background-color: #fff;
+                    text-decoration: none;
+                    padding: 13px 27px 16px;
+                    border-radius: 30px;
+                    color: #192127;
+                    font-size: 16px;
+                    font-family: "Brown-Ftv" !important;
+                    font-weight: 700;
+                    line-height: 19px;
+                    text-align: center;
+                    @media only screen and (max-width: 992px) {
+                        width: 100%;
+                        padding: 14px 13px 17px;
+                    }
+                    &:hover{
+                        background-color: #F0F4F7;
+                    }
+                }
+            }
+        }
+    }
+    .footer-bottom{
+        background-color: #fff;
+        .description{
+            font-size: 16px;
+            font-family: "Brown-Ftv" !important;
+            font-weight: 400;
+            line-height: 19px;
+        }
+        .footer-btn-1{
+            a{
+                font-family: "Brown-Ftv" !important;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19px;
+                color: #fff;
+                background-color: #333C42;
+                border: 1px solid #333C42;
+                text-decoration: none;
+                padding: 11px 20px 13px !important;
+                width: 100%;
+                display: block;
+                @media only screen and (max-width: 1200px) {
+                    padding: 11px 10px 13px !important;
+                }
+                &:hover{
+                    background-color: #192127 !important;
+                    border: 1px solid #192127 !important;
+                }
+            }
+        }
+        .footer-btn-2{
+            a{
+                font-family: "Brown-Ftv" !important;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19px;
+                color: #333C42;
+                background-color: transparent;
+                border: 1px solid #333C42;
+                text-decoration: none;
+                padding: 11px 20px 13px !important;
+                width: 100%;
+                display: block;
+                @media only screen and (max-width: 1200px) {
+                    padding: 11px 10px 13px !important;
+                }
+                &:hover{
+                    color: #fff;
+                    background-color: #333C42 !important;
+                }
+            }
+        }
+        .footer-title{
+            font-size: 24px !important;
+            font-family: "Brown-Ftv" !important;
+            font-weight: 700;
+            color: #192127;
+            @media only screen and (max-width: 992px) {
+                font-size: 20px !important;
+            }
+        }
+        .social-links{
+            .icon-style{
+                border: 1px solid #333C42;
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                svg{
+                    width: 22px;
+                    height: 22px;
+                    object-fit: contain;
+                }
+                &:hover{
+                    background-color: #333C42;
+                    path{
+                        fill: #FFFFFF;
+                    }
+                }
+            }
+        }
+        .footer-block{
+            background-image: url('../../img/footer-wave.png');
+            background-position: left;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-color: #ED866F;
+            border-radius: 25px;
+            @media only screen and (max-width: 992px) {
+                background-image: url('../../img/footer-wave-sm.png');
+            }
+            &:hover{
+                box-shadow: 0 4px 32px rgba(25, 33, 45, 0.08);
+            }
+            .footer-block-title{
+                font-size: 24px !important;
+                font-family: "Brown-Ftv" !important;
+                font-weight: 700;
+                color: #192127;
+                margin: 0;
+                @media only screen and (max-width: 992px) {
+                    font-size: 20px !important;
+                }
+            }
+        }
+        .list-title{
+            font-size: 20px !important;
+            line-height: 24px;
+            font-family: "Brown-Ftv" !important;
+            font-weight: 700;
+            color: #192127;
+            @media only screen and (max-width: 992px) {
+                font-size: 18px !important;
+            }
+        }
+        .footer-list{
+            li{
+                list-style: none;
+                padding: 6px 0;
+                @media only screen and (max-width: 992px) {
+                    padding: 4px 0;
+                }
+                a{
+                    text-decoration: none;
+                    font-family: "Brown-Ftv" !important;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #333C42;
+                }
+            }
+        }
+        .bottom-row-border{
+            border-top: 1px solid #D6DCE0;
+        }
+        .copy-text{
+            font-size: 14px !important;
+            font-family: "Brown-Ftv" !important;
+            font-weight: 400;
+            color: #4F5C65;
+        }
+        .mob-list{
+            li{
+                margin: 0;
+                padding: 10px 20px 10px 0;
+                a{
+                    font-size: 14px !important;
+                    font-family: "Brown-Ftv" !important;
+                    font-weight: 700;
+                    color: #4F5C65;
+                    text-decoration: none;
+                    padding-bottom: 3px;
+                    border-bottom: 1px solid #4F5C65;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,274 @@
+/* ------------------------------------------------------------ *\
+   Background Images
+\* ------------------------------------------------------------ */
+$france-background-image: url("/build/images/paris-2024/background-francetv-sport.jpg")
+  no-repeat center center;
+
+#paris-2024 {
+  body {
+    width: 100%;
+    line-height: normal !important;
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: $header-font-family;
+    font-weight: 700;
+    line-height: $line-height;
+    color: var(--bs-heading-color, inherit);
+  }
+
+  h1 {
+    font-size: 2.7rem !important;
+  }
+
+  h2 {
+    font-size: 2.7rem !important;
+  }
+
+  h3 {
+    font-size: 2.3rem !important;
+  }
+
+  .btn,
+  .btn-info:hover {
+    padding: 11px 32px !important;
+    font-size: 1.75rem;
+
+    @include media-breakpoint-down(lg) {
+      padding: 5px 15px !important;
+    }
+
+    &:hover {
+      background-color: transparent !important;
+    }
+  }
+
+  .lead {
+    font-size: 1.5rem;
+  }
+
+  .btn-black {
+    padding: 11px 32px !important;
+
+    @include media-breakpoint-down(lg) {
+      padding: 5px 15px !important;
+    }
+  }
+
+  .btn-black:hover {
+    background-color: transparent !important;
+    color: $black !important;
+  }
+
+  .w-sm-100 {
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+    }
+  }
+
+  .pager-list {
+    font-family: "Paris2024", sans-serif !important;
+  }
+
+  .ftb {
+    font-family: $header-font-family;
+  }
+
+  .text {
+    position: absolute;
+    left: 40px;
+    bottom: 60%;
+    top: 32%;
+
+    @include media-breakpoint-down(lg) {
+      top: 55% !important;
+    }
+    @include media-breakpoint-down(md) {
+      left: 20px;
+      top: 40%;
+    }
+    @include media-breakpoint-down(sm) {
+      left: 10px;
+      top: 35%;
+    }
+  }
+
+  .p-6 {
+    padding: 11px 38px !important;
+
+    @include media-breakpoint-down(lg) {
+      padding: 5px 20px !important;
+    }
+  }
+
+  .logo,
+  .logo-2 {
+    max-width: 97px !important;
+
+    @include media-breakpoint-down(md) {
+      max-width: 157px !important;
+    }
+  }
+
+  .logo-2 {
+    height: 45px !important;
+
+    @include media-breakpoint-down(md) {
+      height: 35px !important;
+    }
+  }
+
+  .img-wd {
+    height: 100%;
+    max-height: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+
+  .img-wd-2 {
+    height: 100%;
+    max-height: 219px;
+    border-radius: 30px;
+    object-fit: cover;
+  }
+
+  .img-wd-3 {
+    height: 550px;
+    border-radius: 30px;
+    object-fit: cover;
+  }
+
+  .france {
+    background: $france-background-image;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 30px;
+  }
+
+  .italic {
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .no {
+    padding: 7px 15px 8px 15px !important;
+    text-decoration: none;
+    color: $black;
+  }
+
+  .no-1 {
+    padding: 7px 17px 8px 17px !important;
+    text-decoration: none;
+    color: $black;
+  }
+
+  .no:focus,
+  .no-1:focus {
+    background-color: $accent;
+    color: $white !important;
+    border-radius: 50px;
+  }
+
+  .img-shadow {
+    box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.25) !important;
+  }
+
+  .home-wrapper {
+    grid-template-columns: 0fr !important;
+  }
+
+  .pager {
+    margin: 3rem 0 !important;
+  }
+
+  .pager .pager-item.is-active a {
+    background-color: $reddish !important;
+  }
+
+  .pager .pager-item a:hover {
+    background-color: $reddish !important;
+  }
+
+  .pager-list {
+    padding-left: 0 !important;
+  }
+
+  ul {
+    list-style: disc !important;
+  }
+  .france-info-rss > span {
+    background-color: $blue-rss;
+    color: $white;
+    padding: 4px 2px;
+  }
+
+  .row-conversion {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .carousel-item-btn {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+
+  .carousel-item-sport {
+    top: 35%;
+    margin: 0 38px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .carousel-btn-mobile {
+    flex-direction: row !important;
+    max-height: 100px;
+    align-content: end !important;
+
+    .btn:first-child:active,
+    .btn-black {
+      padding: 11px 32px !important;
+      border-width: 1px;
+      border-color: $white;
+      &:hover {
+        background-color: $black !important;
+        color: $white !important;
+      }
+    }
+
+  }
+
+  .carousel-mobile {
+    flex-wrap: wrap !important;
+    align-content: space-around !important;
+    flex-direction: row !important;
+  }
+
+  @media (max-width: 767px) {
+    .carousel-item-sport {
+      margin: 0 !important;
+    }
+  }
+
+  #carte-iframe {
+    width: 100%;
+    height: 550px;
+    border-radius: 30px;
+  }
+
+}
